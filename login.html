@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page : access Myplanner</title>
+</head>
+<body class="login-body">
+    <div class="login-container">
+        <form class="login-form" action="home.html" method="get">
+            <h2>Login</h2>
+            <div class="input-container">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required pattern="^[A-Z]+[a-z]+[0-9]+$" placeholder="do not provide spaces">
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"  maxlength="8" minlength="6"   required placeholder="Enter your password">
+            </div>
+            
+            <button type="submit" >Login</button>
+            
+            <br><br>
+            Not a Member ? <a id="signup" href="signup.html">signup</a>
+        </form>
+    </div>
+</body>
+</html>

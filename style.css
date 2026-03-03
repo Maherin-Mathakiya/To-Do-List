@@ -1,0 +1,104 @@
+/* Reset some default styles for better consistency */
+.login-body{
+    background-image: url('3login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:rgb(195, 211, 211);
+    backdrop-filter: blur(3px);
+}
+
+/* universal property */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the login form */
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Style for sign up & signin form elements */
+.input-container {
+    margin: 10px 0;
+}
+
+/* applying properties to both Signin and Signup */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+ 
+/* applying properties to both Signin and Signup */
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+/* apply properties to both Signin and Signup buttons */
+button{
+    width:100px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+}
+#signup{
+    text-decoration: none;
+    color: rgb(177, 90, 90);
+}
+
+/* apply properties to both Signin and Signup buttons */
+button:hover {
+    background-color: rgb(159, 58, 58);
+}
+
+/* specifying css for signup page */
+.SignUp-body{
+    background-color: rgb(141, 197, 247);
+    backdrop-filter: blur(2px);
+}
+.SignUp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.SignUp-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+#logo{
+    height: 70px;
+}

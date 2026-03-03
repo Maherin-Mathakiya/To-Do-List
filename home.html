@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myplanner all-in-one planning solution</title>
+    <link rel="stylesheet" href="style1.css" >
+</head>
+<body>
+    <header>
+        <h3>TO-DO</h2>
+    </header>
+    <div class="menu">
+            <a href="mynotes.html">MyNotes</a>
+            <a href="index.html" onclick="p1()">Logout</a>
+    </div>
+
+
+    <div class="container">
+        <div class="table">
+            <table cellspacing="15px">
+                <tr>
+                <td> </td>
+                <th>Urgent</th>
+                <th>Not-urgent</th>
+                </tr>
+
+                <tr>
+                    <th>Important</th>
+
+                    <td class="to-do">
+                        <div class="box-container">
+                             <input type="text" id="input-box1" placeholder="add task">
+                             <button onclick="addTask1()">Add</button>
+                        </div>
+                        <ul id="list-container1">
+                            <!-- <li class="checked">task1</li>
+                            <li>task2</li>
+                            <li>task3</li>  -->
+                                                                                <!-- making todo here -->
+                    </td>
+
+                    <td class="to-do">
+                        <div class="box-container">
+                            <input type="text" id="input-box2" placeholder="add task">
+                            <button onclick="addTask2()">Add</button>
+                        </div>
+                        <ul id="list-container2">
+                            <!-- <li>task1</li>
+                            <li>task2</li>
+                            <li>task3</li>  -->
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Not-Important</th>
+
+
+                    <td class="to-do">
+                        <div class="box-container">
+                            <input type="text" id="input-box3" placeholder="add task">
+                            <button onclick="addTask3()">Add</button>
+                        </div>
+                        <ul id="list-container3">
+                            <!-- <li>task1</li>
+                            <li>task2</li>
+                            <li>task3</li>  -->
+
+                    </td>
+
+                    <td class="to-do">
+                        <div class="box-container">
+                            <input type="text" id="input-box4" placeholder="add task">
+                            <button onclick="addTask4()">Add</button>
+                        </div>
+                        <ul id="list-container4">
+                            <!-- <li>task1</li>
+                            <li>task2</li>
+                            <li>task3</li>  -->
+                        </ul>
+
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p>copyright@Myplanner</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
